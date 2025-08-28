@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "name": "UIRI Lab",
+    "location": "Kampala",
+    "description": "Research facility",
+    "partner_organization": "UIRI",
+    "facility_type": "Lab",
+    "capabilities": "CNC, PCB fabrication"
+  }
+]

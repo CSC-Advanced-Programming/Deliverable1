@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "full_name": "Jane Doe",
+    "email": "jane@example.com",
+    "affiliation": "CS",
+    "specialization": "Software",
+    "cross_skill_trained": true,
+    "institution": "SCIT"
+  }
+]

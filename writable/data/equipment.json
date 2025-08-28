@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "facility_id": 1,
+    "name": "3D Printer",
+    "capabilities": "Rapid prototyping",
+    "description": "FDM printer",
+    "inventory_code": "EQ-001",
+    "usage_domain": "IoT",
+    "support_phase": "Prototyping"
+  }
+]

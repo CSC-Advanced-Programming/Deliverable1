@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "project_id": 1,
+    "title": "Prototype PCB",
+    "description": "PCB design for IoT irrigation",
+    "artifact_link": "http://example.com/artifacts/pcb",
+    "outcome_type": "PCB",
+    "quality_certification": "UIRI certified",
+    "commercialization_status": "Demoed"
+  }
+]

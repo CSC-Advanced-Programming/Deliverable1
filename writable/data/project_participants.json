@@ -1,0 +1,9 @@
+[
+  {
+    "id": 1,
+    "project_id": 1,
+    "participant_id": 1,
+    "role_on_project": "Student",
+    "skill_role": "Developer"
+  }
+]
