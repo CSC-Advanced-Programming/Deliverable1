@@ -1,10 +1,10 @@
 [
-  {
-    "id": 1,
-    "facility_id": 1,
-    "name": "PCB Fabrication",
-    "description": "Printed circuit boards",
-    "category": "Machining",
-    "skill_type": "Hardware"
-  }
+    {
+        "id": 1,
+        "facility_id": 1,
+        "name": "PCB Fabrication",
+        "description": "Printed circuit boards",
+        "category": "Machining",
+        "skill_type": "Hardware"
+    }
 ]

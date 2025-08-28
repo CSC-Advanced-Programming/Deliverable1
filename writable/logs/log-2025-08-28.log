@@ -82,3 +82,563 @@ Stack trace:
 #10 H:\codeigniter4\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
 #11 H:\codeigniter4\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
 #12 {main}
+CRITICAL - 2025-08-28 15:01:38 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 134.
+ 1 APPPATH\Views\dashboard.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'H:\\codeigniter4\\app\\Views\\dashboard.php', 134)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\codeigniter4\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():223}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('H:\\codeigniter4\\public\\index.php')
+CRITICAL - 2025-08-28 15:01:59 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 134.
+ 1 APPPATH\Views\dashboard.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'H:\\codeigniter4\\app\\Views\\dashboard.php', 134)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\codeigniter4\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():223}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('H:\\codeigniter4\\public\\index.php')
+CRITICAL - 2025-08-28 15:05:11 --> ErrorException: Undefined array key "facility_id"
+[Method: GET, Route: projects]
+in APPPATH\Controllers\ProjectController.php on line 69.
+ 1 APPPATH\Controllers\ProjectController.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "facility_id"', 'H:\\codeigniter4\\app\\Controllers\\ProjectController.php', 69)
+ 2 [internal function]: App\Controllers\ProjectController->{closure:App\Controllers\ProjectController::webIndex():69}([...])
+ 3 APPPATH\Controllers\ProjectController.php(69): array_filter([...], Object(Closure))
+ 4 APPPATH\Controllers\ProjectController.php(24): App\Controllers\ProjectController->webIndex()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProjectController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('H:\\codeigniter4\\public\\index.php')
+CRITICAL - 2025-08-28 15:05:16 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 134.
+ 1 APPPATH\Views\dashboard.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'H:\\codeigniter4\\app\\Views\\dashboard.php', 134)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\codeigniter4\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():223}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('H:\\codeigniter4\\public\\index.php')
+CRITICAL - 2025-08-28 15:05:21 --> ErrorException: Undefined array key "facility_id"
+[Method: GET, Route: projects]
+in APPPATH\Controllers\ProjectController.php on line 69.
+ 1 APPPATH\Controllers\ProjectController.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "facility_id"', 'H:\\codeigniter4\\app\\Controllers\\ProjectController.php', 69)
+ 2 [internal function]: App\Controllers\ProjectController->{closure:App\Controllers\ProjectController::webIndex():69}([...])
+ 3 APPPATH\Controllers\ProjectController.php(69): array_filter([...], Object(Closure))
+ 4 APPPATH\Controllers\ProjectController.php(24): App\Controllers\ProjectController->webIndex()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProjectController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('H:\\codeigniter4\\public\\index.php')
+CRITICAL - 2025-08-28 15:10:58 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 134.
+ 1 APPPATH\Views\dashboard.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'H:\\codeigniter4\\app\\Views\\dashboard.php', 134)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\codeigniter4\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():223}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('H:\\codeigniter4\\public\\index.php')
+CRITICAL - 2025-08-28 15:11:15 --> ErrorException: Undefined array key "facility_id"
+[Method: GET, Route: services]
+in APPPATH\Controllers\ServiceController.php on line 59.
+ 1 APPPATH\Controllers\ServiceController.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "facility_id"', 'H:\\codeigniter4\\app\\Controllers\\ServiceController.php', 59)
+ 2 [internal function]: App\Controllers\ServiceController->{closure:App\Controllers\ServiceController::webIndex():59}([...])
+ 3 APPPATH\Controllers\ServiceController.php(59): array_filter([...], Object(Closure))
+ 4 APPPATH\Controllers\ServiceController.php(18): App\Controllers\ServiceController->webIndex()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ServiceController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('H:\\codeigniter4\\public\\index.php')
+CRITICAL - 2025-08-28 15:11:18 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: participants]
+in APPPATH\Views\participants\index.php on line 32.
+ 1 APPPATH\Views\participants\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'H:\\codeigniter4\\app\\Views\\participants\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\codeigniter4\\app\\Views\\participants\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():223}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('participants/index', [], true)
+ 5 APPPATH\Controllers\ParticipantController.php(58): view('participants/index', [...])
+ 6 APPPATH\Controllers\ParticipantController.php(13): App\Controllers\ParticipantController->webIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ParticipantController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParticipantController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('H:\\codeigniter4\\public\\index.php')
+CRITICAL - 2025-08-28 15:11:21 --> ErrorException: Undefined array key "facility_id"
+[Method: GET, Route: projects]
+in APPPATH\Controllers\ProjectController.php on line 69.
+ 1 APPPATH\Controllers\ProjectController.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "facility_id"', 'H:\\codeigniter4\\app\\Controllers\\ProjectController.php', 69)
+ 2 [internal function]: App\Controllers\ProjectController->{closure:App\Controllers\ProjectController::webIndex():69}([...])
+ 3 APPPATH\Controllers\ProjectController.php(69): array_filter([...], Object(Closure))
+ 4 APPPATH\Controllers\ProjectController.php(24): App\Controllers\ProjectController->webIndex()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProjectController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('H:\\codeigniter4\\public\\index.php')
+CRITICAL - 2025-08-28 15:11:26 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 134.
+ 1 APPPATH\Views\dashboard.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'H:\\codeigniter4\\app\\Views\\dashboard.php', 134)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\codeigniter4\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():223}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('H:\\codeigniter4\\public\\index.php')
+CRITICAL - 2025-08-28 15:11:31 --> ErrorException: Undefined array key "facility_id"
+[Method: GET, Route: projects]
+in APPPATH\Controllers\ProjectController.php on line 69.
+ 1 APPPATH\Controllers\ProjectController.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "facility_id"', 'H:\\codeigniter4\\app\\Controllers\\ProjectController.php', 69)
+ 2 [internal function]: App\Controllers\ProjectController->{closure:App\Controllers\ProjectController::webIndex():69}([...])
+ 3 APPPATH\Controllers\ProjectController.php(69): array_filter([...], Object(Closure))
+ 4 APPPATH\Controllers\ProjectController.php(24): App\Controllers\ProjectController->webIndex()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProjectController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('H:\\codeigniter4\\public\\index.php')
+CRITICAL - 2025-08-28 15:11:39 --> ErrorException: Undefined array key "facility_id"
+[Method: GET, Route: projects]
+in APPPATH\Controllers\ProjectController.php on line 69.
+ 1 APPPATH\Controllers\ProjectController.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "facility_id"', 'H:\\codeigniter4\\app\\Controllers\\ProjectController.php', 69)
+ 2 [internal function]: App\Controllers\ProjectController->{closure:App\Controllers\ProjectController::webIndex():69}([...])
+ 3 APPPATH\Controllers\ProjectController.php(69): array_filter([...], Object(Closure))
+ 4 APPPATH\Controllers\ProjectController.php(24): App\Controllers\ProjectController->webIndex()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProjectController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('H:\\codeigniter4\\public\\index.php')
+CRITICAL - 2025-08-28 15:11:43 --> ErrorException: Undefined array key "facility_id"
+[Method: GET, Route: services]
+in APPPATH\Controllers\ServiceController.php on line 59.
+ 1 APPPATH\Controllers\ServiceController.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "facility_id"', 'H:\\codeigniter4\\app\\Controllers\\ServiceController.php', 59)
+ 2 [internal function]: App\Controllers\ServiceController->{closure:App\Controllers\ServiceController::webIndex():59}([...])
+ 3 APPPATH\Controllers\ServiceController.php(59): array_filter([...], Object(Closure))
+ 4 APPPATH\Controllers\ServiceController.php(18): App\Controllers\ServiceController->webIndex()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ServiceController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('H:\\codeigniter4\\public\\index.php')
+CRITICAL - 2025-08-28 15:12:01 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 134.
+ 1 APPPATH\Views\dashboard.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'H:\\codeigniter4\\app\\Views\\dashboard.php', 134)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\codeigniter4\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():223}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('H:\\codeigniter4\\public\\index.php')
+CRITICAL - 2025-08-28 15:12:16 --> ErrorException: Undefined array key "facility_id"
+[Method: GET, Route: services]
+in APPPATH\Controllers\ServiceController.php on line 59.
+ 1 APPPATH\Controllers\ServiceController.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "facility_id"', 'H:\\codeigniter4\\app\\Controllers\\ServiceController.php', 59)
+ 2 [internal function]: App\Controllers\ServiceController->{closure:App\Controllers\ServiceController::webIndex():59}([...])
+ 3 APPPATH\Controllers\ServiceController.php(59): array_filter([...], Object(Closure))
+ 4 APPPATH\Controllers\ServiceController.php(18): App\Controllers\ServiceController->webIndex()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ServiceController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('H:\\codeigniter4\\public\\index.php')
+CRITICAL - 2025-08-28 15:12:25 --> ErrorException: Undefined array key "facility_id"
+[Method: GET, Route: projects]
+in APPPATH\Controllers\ProjectController.php on line 69.
+ 1 APPPATH\Controllers\ProjectController.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "facility_id"', 'H:\\codeigniter4\\app\\Controllers\\ProjectController.php', 69)
+ 2 [internal function]: App\Controllers\ProjectController->{closure:App\Controllers\ProjectController::webIndex():69}([...])
+ 3 APPPATH\Controllers\ProjectController.php(69): array_filter([...], Object(Closure))
+ 4 APPPATH\Controllers\ProjectController.php(24): App\Controllers\ProjectController->webIndex()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProjectController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('H:\\codeigniter4\\public\\index.php')
+CRITICAL - 2025-08-28 15:16:59 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 134.
+ 1 APPPATH\Views\dashboard.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'H:\\codeigniter4\\app\\Views\\dashboard.php', 134)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\codeigniter4\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():223}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('H:\\codeigniter4\\public\\index.php')
+CRITICAL - 2025-08-28 16:06:05 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 134.
+ 1 APPPATH\Views\dashboard.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'H:\\codeigniter4\\app\\Views\\dashboard.php', 134)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\codeigniter4\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():223}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('H:\\codeigniter4\\public\\index.php')
+CRITICAL - 2025-08-28 16:06:15 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 134.
+ 1 APPPATH\Views\dashboard.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'H:\\codeigniter4\\app\\Views\\dashboard.php', 134)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\codeigniter4\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():223}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('H:\\codeigniter4\\public\\index.php')
+CRITICAL - 2025-08-28 16:06:32 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: participants]
+in APPPATH\Views\participants\index.php on line 32.
+ 1 APPPATH\Views\participants\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'H:\\codeigniter4\\app\\Views\\participants\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\codeigniter4\\app\\Views\\participants\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():223}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('participants/index', [], true)
+ 5 APPPATH\Controllers\ParticipantController.php(58): view('participants/index', [...])
+ 6 APPPATH\Controllers\ParticipantController.php(13): App\Controllers\ParticipantController->webIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ParticipantController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParticipantController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('H:\\codeigniter4\\public\\index.php')
+CRITICAL - 2025-08-28 16:06:35 --> ErrorException: Undefined array key "facility_id"
+[Method: GET, Route: services]
+in APPPATH\Controllers\ServiceController.php on line 59.
+ 1 APPPATH\Controllers\ServiceController.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "facility_id"', 'H:\\codeigniter4\\app\\Controllers\\ServiceController.php', 59)
+ 2 [internal function]: App\Controllers\ServiceController->{closure:App\Controllers\ServiceController::webIndex():59}([...])
+ 3 APPPATH\Controllers\ServiceController.php(59): array_filter([...], Object(Closure))
+ 4 APPPATH\Controllers\ServiceController.php(18): App\Controllers\ServiceController->webIndex()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ServiceController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('H:\\codeigniter4\\public\\index.php')
+CRITICAL - 2025-08-28 16:20:04 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 134.
+ 1 APPPATH\Views\dashboard.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'H:\\codeigniter4\\app\\Views\\dashboard.php', 134)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\codeigniter4\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():223}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('H:\\codeigniter4\\public\\index.php')
+CRITICAL - 2025-08-28 16:41:36 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 134.
+ 1 APPPATH\Views\dashboard.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'H:\\codeigniter4\\app\\Views\\dashboard.php', 134)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\codeigniter4\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():223}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('H:\\codeigniter4\\public\\index.php')
+CRITICAL - 2025-08-28 16:41:44 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 134.
+ 1 APPPATH\Views\dashboard.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'H:\\codeigniter4\\app\\Views\\dashboard.php', 134)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\codeigniter4\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():223}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('H:\\codeigniter4\\public\\index.php')
+CRITICAL - 2025-08-28 16:44:05 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 134.
+ 1 APPPATH\Views\dashboard.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'H:\\codeigniter4\\app\\Views\\dashboard.php', 134)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\codeigniter4\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():223}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('H:\\codeigniter4\\public\\index.php')
+CRITICAL - 2025-08-28 16:44:25 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 134.
+ 1 APPPATH\Views\dashboard.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'H:\\codeigniter4\\app\\Views\\dashboard.php', 134)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\codeigniter4\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():223}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('H:\\codeigniter4\\public\\index.php')
+CRITICAL - 2025-08-28 16:45:09 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 134.
+ 1 APPPATH\Views\dashboard.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'H:\\codeigniter4\\app\\Views\\dashboard.php', 134)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\codeigniter4\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():223}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('H:\\codeigniter4\\public\\index.php')
+CRITICAL - 2025-08-28 16:46:42 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 134.
+ 1 APPPATH\Views\dashboard.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'H:\\codeigniter4\\app\\Views\\dashboard.php', 134)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\codeigniter4\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():223}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('H:\\codeigniter4\\public\\index.php')
+CRITICAL - 2025-08-28 16:46:47 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 134.
+ 1 APPPATH\Views\dashboard.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'H:\\codeigniter4\\app\\Views\\dashboard.php', 134)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\codeigniter4\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():223}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('H:\\codeigniter4\\public\\index.php')
+CRITICAL - 2025-08-28 16:47:45 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 134.
+ 1 APPPATH\Views\dashboard.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'H:\\codeigniter4\\app\\Views\\dashboard.php', 134)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\codeigniter4\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():223}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('H:\\codeigniter4\\public\\index.php')
+CRITICAL - 2025-08-28 16:56:59 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 134.
+ 1 APPPATH\Views\dashboard.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'H:\\codeigniter4\\app\\Views\\dashboard.php', 134)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\codeigniter4\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():223}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('H:\\codeigniter4\\public\\index.php')
+CRITICAL - 2025-08-28 16:57:36 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 134.
+ 1 APPPATH\Views\dashboard.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'H:\\codeigniter4\\app\\Views\\dashboard.php', 134)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\codeigniter4\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():223}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('H:\\codeigniter4\\public\\index.php')
+CRITICAL - 2025-08-28 17:01:23 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 134.
+ 1 APPPATH\Views\dashboard.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'H:\\codeigniter4\\app\\Views\\dashboard.php', 134)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\codeigniter4\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():223}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('H:\\codeigniter4\\public\\index.php')
+CRITICAL - 2025-08-28 17:01:24 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 134.
+ 1 APPPATH\Views\dashboard.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'H:\\codeigniter4\\app\\Views\\dashboard.php', 134)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\codeigniter4\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():223}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('H:\\codeigniter4\\public\\index.php')
+CRITICAL - 2025-08-28 17:02:16 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 134.
+ 1 APPPATH\Views\dashboard.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'H:\\codeigniter4\\app\\Views\\dashboard.php', 134)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\codeigniter4\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():223}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('H:\\codeigniter4\\public\\index.php')
+CRITICAL - 2025-08-28 17:02:31 --> ErrorException: Undefined array key "program_id"
+[Method: GET, Route: projects]
+in APPPATH\Controllers\ProjectController.php on line 66.
+ 1 APPPATH\Controllers\ProjectController.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "program_id"', 'H:\\codeigniter4\\app\\Controllers\\ProjectController.php', 66)
+ 2 [internal function]: App\Controllers\ProjectController->{closure:App\Controllers\ProjectController::webIndex():66}([...])
+ 3 APPPATH\Controllers\ProjectController.php(66): array_filter([...], Object(Closure))
+ 4 APPPATH\Controllers\ProjectController.php(24): App\Controllers\ProjectController->webIndex()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProjectController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('H:\\codeigniter4\\public\\index.php')
+CRITICAL - 2025-08-28 17:02:34 --> ErrorException: Undefined array key "facility_id"
+[Method: GET, Route: services]
+in APPPATH\Controllers\ServiceController.php on line 59.
+ 1 APPPATH\Controllers\ServiceController.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "facility_id"', 'H:\\codeigniter4\\app\\Controllers\\ServiceController.php', 59)
+ 2 [internal function]: App\Controllers\ServiceController->{closure:App\Controllers\ServiceController::webIndex():59}([...])
+ 3 APPPATH\Controllers\ServiceController.php(59): array_filter([...], Object(Closure))
+ 4 APPPATH\Controllers\ServiceController.php(18): App\Controllers\ServiceController->webIndex()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ServiceController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('H:\\codeigniter4\\public\\index.php')
+CRITICAL - 2025-08-28 17:02:42 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 134.
+ 1 APPPATH\Views\dashboard.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'H:\\codeigniter4\\app\\Views\\dashboard.php', 134)
+ 2 SYSTEMPATH\View\View.php(226): include('H:\\codeigniter4\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():223}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('H:\\codeigniter4\\public\\index.php')

@@ -1,12 +1,27 @@
 [
-  {
-    "id": 1,
-    "facility_id": 1,
-    "name": "3D Printer",
-    "capabilities": "Rapid prototyping",
-    "description": "FDM printer",
-    "inventory_code": "EQ-001",
-    "usage_domain": "IoT",
-    "support_phase": "Prototyping"
-  }
+    {
+        "id": 1,
+        "facility_id": 1,
+        "name": "3D Printer",
+        "capabilities": "Rapid prototyping",
+        "description": "FDM printer",
+        "inventory_code": "EQ-001",
+        "usage_domain": "IoT",
+        "support_phase": "Prototyping"
+    },
+    {
+        "name": "Here me and Rejoice",
+        "description": "Sentry",
+        "facility_id": "1",
+        "category": "Laboratory",
+        "model": "Model R2",
+        "manufacturer": "Mukwano",
+        "serial_number": "21xx2",
+        "purchase_date": "2025-08-28",
+        "cost": "1",
+        "status": "Active",
+        "maintenance_schedule": null,
+        "operating_instructions": null,
+        "id": 2
+    }
 ]

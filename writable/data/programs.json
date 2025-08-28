@@ -1,1 +1,10 @@
-[]
+[
+    {
+        "name": "Computer science",
+        "description": "Innovational",
+        "national_alignment": "Big 4 Agenda",
+        "focus_areas": "Course is hard",
+        "phases": "Implementation",
+        "id": 1
+    }
+]
